@@ -62,7 +62,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     color: var(--white) !important;
-    transition: 3s;
+    transition: .3s;
 }
 
 .nav-link:hover {
@@ -106,7 +106,7 @@ body {
     background: transparent !important;
     color: var(--white) !important;
     font-weight: 500;
-    transition: 3s;
+    transition: .3s;
 }
 
 .btn-custom:hover,
@@ -123,7 +123,7 @@ body {
     background: var(--pur);
     color: var(--white);
     font-weight: 500;
-    transition: 3s;
+    transition: .3s;
 }
 
 /* about section */
@@ -152,7 +152,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    transition: 4s;
+    transition: .3s;
     align-items: center;
     text-align: center;
 }
@@ -181,7 +181,7 @@ body {
     padding: 45px 25px;
     border: 2px solid rgba(255, 255, 255, 2);
     border-radius: 12px;
-    transition: 4s;
+    transition: .3s;
     text-align: center;
 }
 
@@ -254,7 +254,7 @@ body {
     margin-right: 20px;
     font-size: 24px;
     color: var(--pur);
-    transition: 3s;
+    transition: .3s;
 }
 
 /* footer */
