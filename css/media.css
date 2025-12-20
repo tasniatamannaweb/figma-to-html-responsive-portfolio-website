@@ -1,0 +1,395 @@
+/* extra small devices (portrait phones, <576px)*/
+@media (max-width: 575.98px) {
+    body {
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* navbar */
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        padding: 5px;
+        background-color: var(--bg);
+        text-align: center;
+    }
+
+    /* hero */
+    .hero-section {
+        padding-top: 80px !important;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-top: 35px !important;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .hero-btns,
+    .hero-content .btn,
+    .hero-content div {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .hello {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: clamp(32px, 10vw, 40px);
+    }
+
+    /* about */
+    .about-desc {
+        font-size: 15px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .c_padding {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .c_t {
+        font-size: 50px !important;
+    }
+
+    .stats-text {
+        padding-left: 0;
+        font-size: 16px !important;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .p_c {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* buttons */
+    .btn-custom {
+        margin: 5px auto;
+        padding: 8px 8px;
+    }
+
+    /* cards */
+    .skill-gray-card {
+        height: 200px;
+        padding: 30px 30px;
+    }
+
+    .service-outline-card {
+        padding: 20px 2px 0px;
+    }
+
+    .pj-card {
+        width: 100% !important;
+        min-height: 340px;
+        height: auto !important;
+        padding: 25px;
+    }
+
+    /* contact */
+    #contact {
+        text-align: center;
+    }
+
+    #contact .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .btn_send {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pj-footer-btns .btn {
+        width: 45%;
+        height: 40px;
+    }
+
+    .pj_btn {
+        padding: 8px 4px !important;
+        font-size: 14px;
+    }
+
+    /* footer */
+    footer {
+        padding: 70px 0 30px;
+    }
+
+    .footer-text-item {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/*small devices (landscape phones, 576px–767.98px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding: 30px;
+    }
+
+    #home,
+    #about,
+    #services,
+    #project,
+    #contact {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        padding: 5px;
+        background-color: var(--bg);
+    }
+
+    /* hero */
+    .hero-section {
+        min-height: 60vh;
+        padding-top: 100px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-top: 50px !important;
+        text-align: center;
+    }
+
+    .hero-btns {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .name {
+        font-size: 42px;
+    }
+
+    /* sections */
+    .section-padding {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+
+    .c_padding {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .stats-text {
+        font-size: 20px;
+    }
+
+    .c_t {
+        font-size: 60px;
+    }
+
+    /* cards */
+    .pj-card {
+        width: 100% !important;
+        height: 460px !important;
+        padding: 35px;
+    }
+
+    .btn-custom {
+        padding: 12px 20px;
+    }
+
+    .pj-footer-btns .btn {
+        width: 48%;
+        height: 40px;
+    }
+
+    .pj_btn {
+        padding: 6px 6px !important;
+        font-size: 16px;
+    }
+
+    .service-outline-card {
+        padding: 30px 8px 0;
+        text-align: center;
+    }
+
+    .p_c {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .skill-gray-card {
+        height: 200px;
+        padding: 30px 30px;
+
+    }
+
+    .btn_send {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 70px 0 30px;
+    }
+}
+
+/*medium devices (tablets, 768px–991.98px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-section {
+        min-height: 60vh;
+        padding-top: 100px;
+        padding-bottom: 25px;
+        text-align: center;
+        /* center-er jonno added */
+    }
+
+    .hero-content {
+        padding-top: 50px !important;
+        text-align: center;
+        /* center-er jonno added */
+    }
+
+    .hero-btns {
+        display: flex;
+        justify-content: center;
+        /* center-er jonno added */
+    }
+
+    .name {
+        font-size: 42px;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .stats-text {
+        font-size: 20px;
+    }
+
+    .c_t {
+        font-size: 65px;
+    }
+
+    .c_padding {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill-gray-card {
+        height: 230px;
+    }
+
+    .pj-card {
+        min-height: 345px;
+        padding: 20px;
+    }
+
+    .btn-custom {
+        padding: 8px 0px;
+    }
+
+
+    .h_btn {
+        padding: 10px 10px;
+    }
+
+
+
+    .pj_btn {
+        padding: 10px 5px !important;
+        font-size: 14px;
+    }
+
+    .p_c {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    footer {
+        padding: 70px 0 30px;
+    }
+
+    .footer-text-item {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/*large devices (desktops, 992px–1199.98px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero-section {
+        min-height: 70vh;
+        padding-top: 124px;
+    }
+
+    .c_padding {
+        align-items: center;
+    }
+
+    .pj-card {
+        min-height: 380px;
+        padding: 30px;
+    }
+
+    .pj_btn {
+        padding: 10px 10px;
+    }
+
+    footer {
+        padding: 70px 0 30px;
+    }
+
+    .skill-gray-card {
+        height: 235px;
+    }
+}
+
+/*extra large devices (1200px–1399.98px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .hero-section {
+        min-height: 70vh;
+        padding-top: 120px;
+    }
+
+    .pj-card {
+        height: 400px;
+    }
+}
+
+/*extra extra large devices (≥1400px)*/
+@media (min-width: 1400px) {
+    .hero-section {
+        min-height: 70vh !important;
+        padding-top: 140px !important;
+    }
+
+    .pj-card {
+        height: 435px;
+    }
+}
