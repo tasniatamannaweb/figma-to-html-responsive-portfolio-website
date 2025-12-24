@@ -1,4 +1,5 @@
-/* extra small devices (portrait phones, <576px)*/
+
+/* extra small devices (portrait phones, <576px) */
 @media (max-width: 575.98px) {
     body {
         padding: 20px;
@@ -30,16 +31,10 @@
         text-align: center;
     }
 
-    .hero-btns,
-    .hero-content .btn,
-    .hero-content div {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
     .hello {
-        font-size: 20px;
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 0;
     }
 
     .name {
@@ -78,25 +73,41 @@
 
     /* buttons */
     .btn-custom {
-        margin: 5px auto;
-        padding: 8px 8px;
+        margin: 5px 0;
+        padding: 8px 3px;
     }
 
-    /* cards */
+    .btn_send {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* skill cards */
     .skill-gray-card {
         height: 200px;
-        padding: 30px 30px;
+        padding: 30px;
     }
 
     .service-outline-card {
         padding: 20px 2px 0px;
     }
 
+    /* project cards */
     .pj-card {
         width: 100% !important;
         min-height: 340px;
         height: auto !important;
         padding: 25px;
+    }
+
+    .pj-footer-btns .btn {
+        width: 45%;
+        height: 40px;
+    }
+
+    .pj_btn {
+        padding: 8px 4px !important;
+        font-size: 14px;
     }
 
     /* contact */
@@ -111,21 +122,6 @@
         margin-bottom: 20px;
     }
 
-    .btn_send {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .pj-footer-btns .btn {
-        width: 45%;
-        height: 40px;
-    }
-
-    .pj_btn {
-        padding: 8px 4px !important;
-        font-size: 14px;
-    }
-
     /* footer */
     footer {
         padding: 70px 0 30px;
@@ -137,17 +133,13 @@
     }
 }
 
-/*small devices (landscape phones, 576px–767.98px)*/
+/* small devices (landscape phones, 576px–767.98px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     body {
         padding: 30px;
     }
 
-    #home,
-    #about,
-    #services,
-    #project,
-    #contact {
+    #home, #about, #services, #featured-projects, #practice-projects, #contact {
         justify-content: center;
         text-align: center;
     }
@@ -157,7 +149,13 @@
         background-color: var(--bg);
     }
 
-    /* hero */
+      .hello {
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+
     .hero-section {
         min-height: 60vh;
         padding-top: 100px;
@@ -176,17 +174,16 @@
         gap: 10px;
     }
 
+    .h_btn {
+        padding: 10px 10px;
+    }
+
     .name {
         font-size: 42px;
     }
 
-    /* sections */
     .section-padding {
         padding: 30px 0;
-        text-align: center;
-    }
-
-    .about-desc {
         text-align: center;
     }
 
@@ -198,7 +195,6 @@
         justify-content: center;
     }
 
-
     .stats-text {
         font-size: 20px;
     }
@@ -207,7 +203,6 @@
         font-size: 60px;
     }
 
-    /* cards */
     .pj-card {
         width: 100% !important;
         height: 460px !important;
@@ -240,8 +235,7 @@
 
     .skill-gray-card {
         height: 200px;
-        padding: 30px 30px;
-
+        padding: 30px;
     }
 
     .btn_send {
@@ -254,26 +248,23 @@
     }
 }
 
-/*medium devices (tablets, 768px–991.98px)*/
+/* medium devices (tablets, 768px–991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .hero-section {
         min-height: 60vh;
         padding-top: 100px;
         padding-bottom: 25px;
         text-align: center;
-        /* center-er jonno added */
     }
 
     .hero-content {
         padding-top: 50px !important;
         text-align: center;
-        /* center-er jonno added */
     }
 
     .hero-btns {
         display: flex;
         justify-content: center;
-        /* center-er jonno added */
     }
 
     .name {
@@ -293,10 +284,10 @@
     }
 
     .c_padding {
-        justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: center;
     }
 
@@ -313,12 +304,9 @@
         padding: 8px 0px;
     }
 
-
     .h_btn {
         padding: 10px 10px;
     }
-
-
 
     .pj_btn {
         padding: 10px 5px !important;
@@ -341,7 +329,7 @@
     }
 }
 
-/*large devices (desktops, 992px–1199.98px)*/
+/* large devices (desktops, 992px–1199.98px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .hero-section {
         min-height: 70vh;
@@ -370,7 +358,7 @@
     }
 }
 
-/*extra large devices (1200px–1399.98px)*/
+/* extra large devices (1200px–1399.98px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     .hero-section {
         min-height: 70vh;
@@ -382,7 +370,7 @@
     }
 }
 
-/*extra extra large devices (≥1400px)*/
+/* extra extra large devices (≥1400px) */
 @media (min-width: 1400px) {
     .hero-section {
         min-height: 70vh !important;
