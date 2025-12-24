@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="Jayjay Dinero">
-    <meta name="description" content="Protfolio Website">
+    <meta name="description" content="Portfolio Website">
     <meta name="keywords" content="Fullstack Developer, Web Developer, Web Designer">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
@@ -25,14 +25,17 @@
         <nav class="navbar navbar-expand-md custom-nav fixed-top">
             <div class="container">
                 <a class="navbar-brand logo p_c" href="#home">Jayjay Dinero</a>
-                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navMenu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navMenu">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#featured-projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -44,20 +47,29 @@
     <section id="home" class="hero-section position-relative">
         <div class="container">
             <div class="row align-items-center">
+
                 <div class="col-md-6 order-2 order-md-1 text-center text-lg-start">
-                    <div class="hero-content">
-                        <h3 class="hello">Hello, i'm</h3>
-                        <h1 class="name">Jayjay D. Dinero</h1>
-                        <p class="mt-3">Freelance UI designer, Fullstack developer, & Data Miner. I create seamless web experiences for end-users.</p>
-                        <div class="hero-btns mt-4 d-flex justify-content-center justify-content-lg-start gap-3">
-                            <a href="#about" class="btn btn-custom h_btn">About me <i class="fa-regular fa-user ms-2"></i></a>
-                            <a href="#project" class="btn btn-custom h_btn">Projects <i class="fa-solid fa-eye ms-2"></i></a>
-                        </div>
+                    <h3 class="hello">Hello, I'm</h3>
+                    <h1 class="name">Jayjay D. Dinero</h1>
+                    <p>
+                        Freelance UI designer, Fullstack developer & Data Miner.
+                        I create seamless web experiences for end users.
+                    </p>
+
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#about" class="btn btn-custom h_btn">
+                            About me <i class="fa-regular fa-user ms-2"></i>
+                        </a>
+                        <a href="#featured-projects" class="btn btn-custom h_btn">
+                            Projects <i class="fa-solid fa-eye ms-2"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6 order-1 order-md-2 text-md-end text-center mb-md-0">
-                    <img src="images/gp-1.png" alt="Jayjay portrait" class="w-100 hero-img">
+
+                <div class="col-md-6 order-1 order-md-2 text-center">
+                    <img src="images/gp-1.png" alt="Jayjay Dinero" class="w-100 hero-img">
                 </div>
+
             </div>
         </div>
     </section>
@@ -65,46 +77,56 @@
     <!-- about start -->
     <section id="about" class="section-padding">
         <div class="container">
-            <div class="row text-sm-center text-lg-start">
-                <div class="col-lg-10">
-                    <h2 class="section-title p_c mb-0">About me</h2>
-                    <p class="about-desc">Hi, my name is Jayjay Dinero Dinero, i am a Fullstack web developer, UI designer, and Mobile developer. I jhave honed my skills in Web Development and advance i have core understanding of advance UI design principles. Here are the major skiills i have.</p>
-                </div>
-            </div>
-            <div class="row c_padding">
+
+            <h2 class="section-title p_c">About me</h2>
+            <p class="about-desc">
+                Hi, my name is Jayjay Dinero. I am a Fullstack Web Developer,
+                UI Designer, and Mobile Developer. I have honed my skills in web
+                development and have a strong understanding of advanced UI design principles.
+            </p>
+
+            <div class="row c_padding align-items-center">
                 <div class="col-auto">
                     <h1 class="c_t mb-0">5+</h1>
                 </div>
                 <div class="col-md-10">
-                    <p class="stats-text mb-0">Years of experience. Specialised in building apps, while ensuring a seamless web experience for end users.</p>
+                    <p class="mb-0">
+                        Years of experience. Specialized in building applications while ensuring
+                        seamless user experiences.
+                    </p>
                 </div>
             </div>
-            <div class="row justify-content-between g-4">
-                <div class="col-xl-3 col-md-6 col-sm-6">
+
+            <div class="row g-4 mt-4">
+                <div class="col-xl-3 col-md-6">
                     <div class="skill-gray-card">
                         <i class="fa-solid fa-layer-group"></i>
-                        <p class="mb-0">UI & UX<br>DESIGNING</p>
+                        <p>UI & UX<br>DESIGNING</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
+
+                <div class="col-xl-3 col-md-6">
                     <div class="skill-gray-card">
                         <i class="fa-solid fa-code"></i>
-                        <p class="mb-0">WEB<br>DEVELOPMENT</p>
+                        <p>WEB<br>DEVELOPMENT</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
+
+                <div class="col-xl-3 col-md-6">
                     <div class="skill-gray-card">
                         <i class="fa-solid fa-mobile-screen"></i>
-                        <p class="mb-0">MOBILE<br>DEVELOPMENT</p>
+                        <p>MOBILE<br>DEVELOPMENT</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
+
+                <div class="col-xl-3 col-md-6">
                     <div class="skill-gray-card">
                         <i class="fa-brands fa-python"></i>
-                        <p class="mb-0">WEB SCRAPING<br>WITH PYTHON</p>
+                        <p>WEB SCRAPING<br>WITH PYTHON</p>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!-- about end -->
@@ -112,47 +134,53 @@
     <section id="services" class="section-padding">
         <div class="container">
             <h2 class="section-title p_c">The services I offer</h2>
+
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        <h3>UI & UX DESIGNING</h3>
-                        <p>I design beautiful web iterfaces with Figma and Adove XD</p>
+                        <h3>UI & UX DESIGN</h3>
+                        <p>I design modern interfaces using Figma and Adobe XD.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-solid fa-laptop-code"></i>
                         <h3>WEB DEVELOPMENT</h3>
-                        <p>I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like Angular and ReactJS</p>
+                        <p>HTML, CSS, JavaScript, React & Angular based development.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-solid fa-mobile"></i>
                         <h3>MOBILE DEVELOPMENT</h3>
-                        <p>I am an expert mobile developer. I have experience using Flutter and React Native.</p>
+                        <p>Cross-platform apps using Flutter & React Native.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-brands fa-git-alt"></i>
                         <h3>VERSION CONTROL</h3>
-                        <p>I can use version control systems well, and Git & Mecurial are my go-to tool.</p>
+                        <p>Efficient Git & GitHub workflow.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-brands fa-node-js"></i>
-                        <h3>NPM AND NODEJS</h3>
-                        <p>I have core understanding of NPM. I can also develop general purpose applications with NodeJS</p>
+                        <h3>NPM & NODEJS</h3>
+                        <p>Package management & backend fundamentals.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="service-outline-card text-center">
                         <i class="fa-solid fa-magnifying-glass-chart"></i>
                         <h3>WEB SCRAPING</h3>
-                        <p>I can collect content and data from the internet then manipulate and analyze as needed.</p>
+                        <p>Automated data extraction & analysis.</p>
                     </div>
                 </div>
             </div>
@@ -203,7 +231,7 @@
     </section>
     <!-- project1 end -->
     <!-- project2 start -->
-    <section id="project" class="section-padding">
+    <section id="featured-projects" class="section-padding">
         <div class="container">
             <h2 class="section-title p_c">Practice projects</h2>
             <p>I have worked on many practice projects over the course of being a Web Developer, here are a few of my github repository link</p>
@@ -246,7 +274,7 @@
     </section>
     <!-- project2 end -->
     <!-- contact start -->
-    <section id="contact" class="section-padding">
+    <section id="practice-projects" class="section-padding">
         <div class="container">
             <div class="row justify-content-between align-items-sm-center align-items-lg-start">
                 <div class="col-md-5 mb-5 mb-md-0">
