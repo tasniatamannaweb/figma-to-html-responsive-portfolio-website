@@ -1,12 +1,12 @@
-/*font, variables*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font, variables */
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700&display=swap');
 
 :root {
     --bg: #181824;
-    --pur: #7562E0;
+    --pur: #7562e0;
     --black: #000;
     --white: #fff;
-    --pop: "Poppins", sans-serif;
+    --pop: "poppins", sans-serif;
 }
 
 * {
@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     background: var(--bg);
@@ -24,10 +23,19 @@ body {
     overflow-x: hidden;
 }
 
-/* common utilities */
+/*common*/
 .section-padding {
     padding: 30px 0;
 }
+
+#featured-projects,
+#practice-projects,
+#contact,
+#about,
+#services {
+    scroll-margin-top: 100px;
+}
+
 
 .section-title {
     font-size: 35px;
@@ -45,7 +53,7 @@ body {
     color: var(--pur);
 }
 
-/* navbar */
+/*navbar*/
 .custom-nav {
     padding: 10px 0;
     background: var(--bg);
@@ -74,7 +82,7 @@ body {
     box-shadow: none !important;
 }
 
-/* hero section */
+/*hero*/
 .hero-section {
     min-height: calc(100vh - 80px);
     padding-top: 120px;
@@ -98,7 +106,7 @@ body {
     height: auto;
 }
 
-/* buttons */
+/*buttons*/
 .btn-custom {
     padding: 12px 20px;
     border: 2px solid var(--pur) !important;
@@ -112,8 +120,8 @@ body {
 .btn-custom:hover,
 .btn_send:hover {
     background: var(--pur) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 0 20px rgba(117, 98, 224, 4);
+    transform: translatey(-2px);
+    box-shadow: 0 0 20px rgba(117, 98, 224, 0.4);
 }
 
 .btn_send {
@@ -126,7 +134,7 @@ body {
     transition: .3s;
 }
 
-/* about section */
+/*about*/
 .about-desc {
     font-size: 18px;
     line-height: 30px;
@@ -142,19 +150,19 @@ body {
     font-weight: 500;
 }
 
-/* skills */
+/*skills*/
 .skill-gray-card {
     height: 250px;
-    padding: 50px 50px;
+    padding: 50px;
     border-radius: 8px;
     background: var(--white);
     color: var(--black);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    transition: .3s;
     align-items: center;
     text-align: center;
+    transition: .3s;
 }
 
 .skill-gray-card i {
@@ -168,20 +176,18 @@ body {
     line-height: 2;
 }
 
-
 .skill-gray-card:hover {
     background: var(--pur);
     color: var(--white);
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(117, 98, 224, 4);
+    transform: translatey(-10px);
+    box-shadow: 0 10px 25px rgba(117, 98, 224, 0.4);
 }
 
-
-/* services */
+/*services*/
 .service-outline-card {
     height: 100%;
     padding: 45px 25px;
-    border: 2px solid rgba(255, 255, 255, 2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     transition: .3s;
     text-align: center;
@@ -199,19 +205,17 @@ body {
 }
 
 .service-outline-card:hover {
-    transform: translateY(-10px);
-    border: 2px solid var(--pur);
+    transform: translatey(-10px);
     border-color: var(--pur);
-    transition: .3s;
-    box-shadow: 0 0 20px rgba(117, 98, 224, 4);
+    box-shadow: 0 0 20px rgba(117, 98, 224, 0.4);
 }
 
-/* projects */
+/*projects*/
 .pj-card {
     min-height: 430px;
     padding: 40px;
     border-radius: 8px;
-    background: #31313F;
+    background: #31313f;
     display: flex;
     flex-direction: column;
 }
@@ -237,13 +241,13 @@ body {
 }
 
 .pj_btn {
-    padding: 10px 10px !important;
+    padding: 10px !important;
 }
 
-/* contact */
+/*contact*/
 .custom-input {
     padding: 15px !important;
-    background: #1F1F2E !important;
+    background: #1f1f2e !important;
     border: 1px solid transparent !important;
     color: var(--white) !important;
 }
@@ -269,7 +273,7 @@ body {
     text-decoration: none;
 }
 
-/* footer */
+/*footer*/
 footer {
     padding: 120px 0 30px;
 }
@@ -278,3 +282,4 @@ footer {
     font-size: 16px;
     opacity: .8;
 }
+
